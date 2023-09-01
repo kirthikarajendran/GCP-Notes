@@ -29,5 +29,27 @@ SaaS Products in Google Cloud :
 Google Workspace: Google Workspace (formerly G Suite) is a suite of productivity and collaboration tools that includes Gmail, Google Drive, Google Docs, Google Sheets, and more. It allows teams to work together seamlessly and securely in the cloud.
 Google Analytics: Google Analytics is a web analytics service that allows website owners to track and analyze visitor traffic and behavior. It provides insights into user behavior, traffic sources, and more, helping businesses optimize their websites for maximum effectiveness.
 Google Meet: Google Meet is a video conferencing service that allows teams to collaborate and communicate in real time. It offers advanced features like screen sharing, recording, and live captions, making it a powerful tool for remote teams.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+IAM Roles :
+
+This model for access management has three main parts:
+
+Principal -  A principal can be a Google Account (for end users), a service account (for applications and compute workloads), a Google group, or a Google Workspace account or Cloud Identity domain that can access a resource. Each principal has its own identifier, which is typically an email address.
+Role -  A role is a collection of permissions. Permissions determine what operations are allowed on a resource. When you grant a role to a principal, you grant all the permissions that the role contains.
+Policy - The allow policy is a collection of role bindings that bind one or more principals to individual roles. When you want to define who (principal) has what type of access (role) on a resource, you create an allow policy and attach it to the resource.
+
+Principals/identity (User account - gmail , service account , google group ), roles (admin /others to the resources ), permission(what operation to perform on the cloud resources ) -
+
+Primitive /basic role - Owner (Add /remove mmebres and delete projects), editor (deploy application , modify codes and configure services) and viewer (view or read ) access
+Predefined: Predefined roles provide finer-grain access to specific services in the Google Cloud. 
+Custom: Custom roles provide finer-grain access to an organization-specific list of permissions to meet specific needs.  
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
 
