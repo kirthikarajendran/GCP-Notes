@@ -46,6 +46,15 @@ Custom: Custom roles provide finer-grain access to an organization-specific list
 
 https://cloud.google.com/appengine/docs/legacy/standard/python/roles
 
+GCL : https://cloud.google.com/sdk/docs/cheatsheet
+
+gcloud iam list-grantable-roles: List IAM grantable roles for a resource.
+gcloud iam roles create: Create a custom role for a project or org.
+gcloud iam service-accounts create: Create a service account for a project.
+gcloud iam service-accounts add-iam-policy-binding: Add an IAM policy binding to a service account.
+gcloud iam service-accounts set-iam-policy-binding: Replace existing IAM policy binding.
+gcloud iam service-accounts keys list: List a service account's keys.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
