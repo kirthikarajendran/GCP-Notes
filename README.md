@@ -44,6 +44,8 @@ Primitive /basic role - Owner (Add /remove mmebres and delete projects), editor 
 Predefined: Predefined roles provide finer-grain access to specific services in the Google Cloud. 
 Custom: Custom roles provide finer-grain access to an organization-specific list of permissions to meet specific needs.  
 
+https://cloud.google.com/appengine/docs/legacy/standard/python/roles
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
